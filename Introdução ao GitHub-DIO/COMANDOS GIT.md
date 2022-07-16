@@ -32,17 +32,10 @@ Windows utiliza comandos:
 - TREES (armazenam os blobs) contém metadado, aponta pra o blob (arquivos),  contém o nome do arquivo e o sha1, ou aponta para outra árvore
 - COMMITS (pode apontar para tree, parente, autor, mensagem e o timesnap) tbm possui um sha1, qualquer alteração gera um sha1.
 
-Esse sistema é distribuído e seguro, os commits são dificeis de serem alterados assim como as versões dos arquivos que estão nele. 
+Esse sistema é distribuído e seguro, os commits são difíceis de serem alterados assim como as versões dos arquivos que estão nele. 
 
 echo ‘string’ | git hash-object —stdin (gera o stdin da string)
 
 ## CHAVES SSH E TOKENS
 
 Chave ssh é uma chave pública e uma privada (da nossa máquina que já fica configurada).
-
-## INICIANDO O GIT
-
-- Iniciar o git git init
-- Iniciar o versionamento git add
-- iniciar o commit git commit
--
